@@ -1,0 +1,63 @@
+.tag {
+  margin: 60px auto;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.atext {
+  border: 1px solid #2047ab;
+  border-radius: 100px;
+  padding: 6px 20px;
+  transition: background 0.3s ease-out;
+  background-color: white;
+  font-size: 13px;
+  font-family: "Pacifico", cursive;
+  cursor: pointer;
+  margin: 10px 10px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.atext:hover {
+  background: #2047ab99 radial-gradient(circle, transparent 1%, #fff 1%)
+    center/15000%;
+  color: white;
+  fill: red;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.atext:active {
+  /* background-color: #2047ab; */
+  background-size: 100%;
+  transition: background 0s;
+}
+.select {
+  border: 1px solid #f94877;
+  background-color: #f94877 !important;
+  color: #ffffff;
+}
+.deselect {
+  border: 1px solid #2047ab;
+  background-color: #fff;
+  color: #2047ab;
+}
+.add {
+  height: 15px;
+  width: 15px;
+  margin-right: 6px;
+  fill: #2047ab;
+}
+.add:hover {
+  fill: #fff;
+}
+.check {
+  height: 15px;
+  width: 15px;
+  margin-right: 6px;
+  fill: #fff;
+}
+
+/* #fff radial-gradient(circle, transparent 1%, #f94877 1%)
+    center/15000% */
